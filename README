@@ -1,0 +1,13 @@
+# bTB-diagnostics
+
+This project trains a Histogram Boosted Regression Tree model on data from Bovine Tuberculosis (bTB) testing and cattle herd metadata to predict the risk of bTB outbreak.
+
+This can be used to improve the herd-level sensitivity or specificity of the diagnostic test and also to analyse the risk factors involved in predicting bTB outbreaks.
+
+The project consists of a number of Jupyter Notebooks:
+(i) Data_Curation* -- processes the various inpiut data into a matrix for model training.
+(ii) bTB-Diagnostic_2020_v4_crossVal+tuning* -- code that trains the various models.
+(iii) bTB-Diagnostic_2020_final_model* -- code that performs various analysis on the models.
+(iv) Vet_Data_Analysis -- code that performs some extra analysis on the veterinary data.
+
+Further details can be found in the preprint (paper in sumbission for peer review) at: https://arxiv.org/abs/2404.03678
